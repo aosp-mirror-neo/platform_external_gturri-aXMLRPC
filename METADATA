@@ -1,0 +1,16 @@
+name: "gturri-aXMLRPC"
+description:
+    "XML-RPC client library used by DTS suite."
+
+third_party {
+homepage: "https://github.com/gturri/aXMLRPC"
+  identifier {
+    type: "Git"
+    value: "https://github.com/gturri/aXMLRPC.git"
+    primary_source: true
+    version: "aXMLRPC-1.14.0"
+  }
+  version: "aXMLRPC-1.14.0"
+  last_upgrade_date { year: 2024 month: 8 day: 7 }
+  license_type: NOTICE
+}
