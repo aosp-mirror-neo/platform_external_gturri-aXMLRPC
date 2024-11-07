@@ -37,7 +37,7 @@ java_library_host {
     ],
     visibility: [
         ":__subpackages__",
-        "//test/dts/libs/servo",
+        "//test/dts/libs/hostside/servo",
     ],
 }
 
