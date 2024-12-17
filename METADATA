@@ -1,16 +1,21 @@
-name: "gturri-aXMLRPC"
-description:
-    "XML-RPC client library used by DTS suite."
+# This project was upgraded with external_updater.
+# Usage: tools/external_updater/updater.sh update external/gturri-aXMLRPC
+# For more info, check https://cs.android.com/android/platform/superproject/main/+/main:tools/external_updater/README.md
 
+name: "gturri-aXMLRPC"
+description: "XML-RPC client library used by DTS suite."
 third_party {
-homepage: "https://github.com/gturri/aXMLRPC"
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2024
+    month: 12
+    day: 17
+  }
+  homepage: "https://github.com/gturri/aXMLRPC"
   identifier {
     type: "Git"
     value: "https://github.com/gturri/aXMLRPC.git"
+    version: "aXMLRPC-1.15.0"
     primary_source: true
-    version: "aXMLRPC-1.14.0"
   }
-  version: "aXMLRPC-1.14.0"
-  last_upgrade_date { year: 2024 month: 8 day: 7 }
-  license_type: NOTICE
 }
