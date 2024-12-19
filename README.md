@@ -1,18 +1,9 @@
-Beware, this library contains a nasty vulnerability
-===================================================
-
-As long as the vulnerability described in https://github.com/gturri/aXMLRPC/issues/143 is not fixed, you should probably not use aXMLRPC in your projects. :(
-
 What is aXMLRPC?
 ================
 
 aXMLRPC is a Java library with a leightweight XML-RPC client. XML-RPC is
 a specification for making remote procedure calls over the HTTP protocol
 in an XML format. The specificationc can be found under http://www.xmlrpc.com/spec.
-
-The library was developed for the use with Android. Since it has no dependencies to 
-any Android library or any other 3rd-party library, it is fully functional in any
-common java virtual machine (not only on Android).
 
 You can control the client with some flags to extend its functionality. See the section
 about flags.
