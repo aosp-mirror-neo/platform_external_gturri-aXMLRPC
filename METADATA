@@ -7,15 +7,15 @@ description: "XML-RPC client library used by DTS suite."
 third_party {
   license_type: NOTICE
   last_upgrade_date {
-    year: 2024
-    month: 12
-    day: 23
+    year: 2025
+    month: 4
+    day: 3
   }
   homepage: "https://github.com/gturri/aXMLRPC"
   identifier {
     type: "Git"
     value: "https://github.com/gturri/aXMLRPC.git"
-    version: "aXMLRPC-1.16.0"
+    version: "aXMLRPC-1.17.0"
     primary_source: true
   }
 }
